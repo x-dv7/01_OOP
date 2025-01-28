@@ -3,7 +3,7 @@ package main.java.ru.sibintek.oop.examples.methods;
 
 // A Java program with overloaded main() 
 
-class MainOverloading{
+class MainOverloading {
 
     // Normal main()
     public static void main(String[] args) {

@@ -1,56 +1,55 @@
 package main.java.ru.sibintek.oop.examples.inheritence;
 
-class A2 {
-	int i, j;
+class ParentIJK {
+    protected int i, j;
 
-//требуется объявить конструктор класса родителя или явно вызвать нужный конструктор
-	A2() {
+    //требуется объявить конструктор класса родителя или явно вызвать нужный конструктор
+	protected ParentIJK() {
+    }
 
-	}
-	
-	A2(int a) {
-		i = a;
-	}
+	protected ParentIJK(int a) {
+        this.i = a;
+    }
 
-	A2(int a, int b) {
-		i = a;
-		j = b;
-	}
+	protected ParentIJK(int a, int b) {
+        this.i = a;
+        this.j = b;
+    }
 
-	void Showij() {
-		System.out.println("i=" + i);
-		System.out.println("j=" + j);
-	}
+    void Showij() {
+        System.out.println("i=" + i);
+        System.out.println("j=" + j);
+    }
 }
 
-class B2 extends A2 {
-	int k;
+class ChildIJK extends ParentIJK {
+    protected int k;
 
-	B2(int a, int b, int c) {
-//		super(a); // если нет конструктора без параметров, то требуется вызвать нужный коструктор
-		// родителя
-		i = a;
-		j = b;
-		k = c;
-	}
+	ChildIJK(int a, int b, int c) {
+		super(a); // если нет конструктора без параметров, то требуется вызвать нужный коструктор
+        // родителя
+//        this.i = a;
+        this.j = b;
+        this.k = c;
+    }
 
-	void Showk() {
-		System.out.println("k=" + k);
-	}
+    void Showk() {
+        System.out.println("k=" + k);
+    }
 }
 
 /**
  * SingleInheritence
  */
 public class SingleInheritence {
-	public static void main(String[] args) {
-		// when an object of B class is created, a copy of the all methods and fields of
-		// the superclass acquire memory in this object. That is why, by using the
-		// object of the subclass we can also access the members of a superclass.
-		// During inheritance only object of subclass is created, not the superclass
-		B2 subobj = new B2(5, 10, 15);
-		subobj.Showij();
-		subobj.Showk();
-	}
+    public static void main(String[] args) {
+        // when an object of B class is created, a copy of the all methods and fields of
+        // the superclass acquire memory in this object. That is why, by using the
+        // object of the subclass we can also access the members of a superclass.
+        // During inheritance only object of subclass is created, not the superclass
+		ChildIJK subobj = new ChildIJK(5, 10, 15);
+        subobj.Showij();
+        subobj.Showk();
+    }
 
 }

@@ -1,4 +1,4 @@
-package main.java.ru.sibintek.oop.examples.clobj;
+package main.java.ru.sibintek.oop.examples.initialization;
 
 public class NonStaticForwardReferences {
 

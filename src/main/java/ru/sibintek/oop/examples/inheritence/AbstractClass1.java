@@ -1,38 +1,37 @@
-package main.java.ru.sibintek.oop.examples.interfaces;
+package main.java.ru.sibintek.oop.examples.inheritence;
 
-abstract class Parent {
+abstract class ParentAC {
     //optional
-    Parent()
-    {
+    ParentAC() {
         System.out.println("Parent Constructor called");
     }
+
     abstract void meth();
+
     //Abstract class can also have final methods
-    final void meth2()
-    {
+    final void meth2() {
         System.out.println("final method called");
     }
 }
 
-class child extends Parent{
-    child()
-    {
+class ChildAC1 extends ParentAC {
+    ChildAC1() {
         System.out.println("Child class constructor called");
     }
-    void meth()
-    {
+    @Override
+    void meth() {
         System.out.println("abstract method");
     }
 }
+
 class AbstractClass1 {
     public static void main(String[] args) {
-        child c =new child();
+        ChildAC1 c = new ChildAC1();
         c.meth();
         c.meth2();
-        Parent p=new child();
+        ParentAC p = new ChildAC1();
         p.meth();
-        p.meth2();        
-
+        p.meth2();
     }
-    
+
 }

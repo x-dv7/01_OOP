@@ -6,7 +6,7 @@ public class Main {
 		
 		System.out.println("Атрибут пакета defaultString = " + enc.defaultString);
 		System.out.println("Защищенный атрибут protectedString = " + enc.protectedString);
-		enc.protectedString = "Protected chandeg";
+		enc.protectedString = "Protected changed";
 		System.out.println("Защищенный атрибут protectedString = " + enc.protectedString);
 	}
 }

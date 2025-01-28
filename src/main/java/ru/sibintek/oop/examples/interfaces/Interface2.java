@@ -1,8 +1,7 @@
 package main.java.ru.sibintek.oop.examples.interfaces;
 
 interface Callback1 {
-    static void call(int person)
-    {
+    static void call(int person) {
         System.out.println("Call p:" + person);
     }
 }

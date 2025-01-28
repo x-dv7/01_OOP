@@ -1,4 +1,4 @@
-package main.java.ru.sibintek.oop.examples.clobj;
+package main.java.ru.sibintek.oop.examples.initialization;
 
 public class InstanceInitializersII {
 	{ // Нестатический блок инициализации с опережающими ссылками. (1)
