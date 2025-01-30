@@ -1,0 +1,32 @@
+скачать IDE https://www.eclipse.org/downloads/packages/ 
+скачать JDK https://www.oracle.com/java/technologies/downloads/ 
+Работа с пакетами https://habr.com/ru/articles/755654/ 
+
+Полезные ссылки и ресурсы
+Документация по JDK:          https://docs.oracle.com/en/java/javase/11/docs/api/index.html
+Руководство по установке JDK: https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html
+Общая информация о Java:      https://www.java.com/
+Сообщество и форумы:          https://stackoverflow.com/questions/tagged/java
+
+Eclipse for Java Developers. 
+Навигация и редактирование    https://habr.com/ru/articles/168223/
+
+полное соглашение можно 
+посмотреть по ссылке          https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+
+Все о нестатических блоках 
+инициализации в Java          https://habr.com/ru/companies/otus/articles/758478/
+
+Модульность в Java 9          https://habr.com/ru/articles/499872/
+		              https://openjdk.org/projects/jigsaw/
+
+
+ 
+Обзор GigaIDE от СБЕРа 
+| Российская IntelliJ IDEA | https://dzen.ru/a/Zux7erTG_mDJ0pwW
+Поддержка Spring вместе с
+ Amplicode                   https://habr.com/ru/companies/haulmont/articles/828828/ 
+
+
+Как настроить среду 
+разработки Java              https://www.freecodecamp.org/news/how-to-set-up-java-development-environment-a-comprehensive-guide/
