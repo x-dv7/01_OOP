@@ -32,8 +32,8 @@ class Box6Wrapper {
  * SwapObjects2Solution
  */
 public class SwapObjects2Solution {
-	// копия ссылки на wrapper, но когда мы присваеваем новую ссылку в поле, то меняется сам обект wrapper 
-	// так как myBox1 ссылается на тот же объект что и переданная ссылка Box6w1, аналогично для myBox2/Box6w2
+	// копия ссылки на wrapper, но когда мы присваиваем новую ссылку в поле, то меняется сам объект wrapper
+	// так как myBox1 ссылается на тот же объект, что и переданная ссылка Box6w1, аналогично для myBox2/Box6w2
 	public static void swap(Box6Wrapper myBox1, Box6Wrapper myBox2) { 
 		Box6 temp = myBox1.myBox;
 		myBox1.myBox = myBox2.myBox;

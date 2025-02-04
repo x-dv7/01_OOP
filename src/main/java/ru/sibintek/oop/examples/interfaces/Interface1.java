@@ -2,10 +2,10 @@ package main.java.ru.sibintek.oop.examples.interfaces;
 
 interface Callback {
     void call(int person);
-
 }
 
 class Client implements Callback {
+    @Override
     public void call(int p) {
         System.out.println("Call p:" + p);
     }

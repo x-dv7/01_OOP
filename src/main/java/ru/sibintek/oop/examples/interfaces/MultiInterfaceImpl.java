@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.interfaces;
 
+/**
+ * Метод по умолчанию и статический метод у интерфейса
+ */
 public class MultiInterfaceImpl implements IExample1, IExample2 {
     public static final String RUN = "RUN";
     @Override

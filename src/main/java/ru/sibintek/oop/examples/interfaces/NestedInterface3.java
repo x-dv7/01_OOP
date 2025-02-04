@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.interfaces;
 
+/**
+ * Вложенный интерфейс в интерфейс
+ */
 interface MyInterface {
     interface NestedInterface {
         String student = "Disha";// needs to be initialized as its final

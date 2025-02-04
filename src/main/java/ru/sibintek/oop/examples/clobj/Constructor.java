@@ -1,5 +1,7 @@
 package main.java.ru.sibintek.oop.examples.clobj;
-
+/**
+ * Объявление конструктора
+ */
 class Box {
     double width;
     double height;

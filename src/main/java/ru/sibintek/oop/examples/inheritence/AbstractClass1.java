@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.inheritence;
 
+/**
+ *
+ */
 abstract class ParentAC {
     //optional
     ParentAC() {
@@ -18,6 +21,7 @@ class ChildAC1 extends ParentAC {
     ChildAC1() {
         System.out.println("Child class constructor called");
     }
+
     @Override
     void meth() {
         System.out.println("abstract method");

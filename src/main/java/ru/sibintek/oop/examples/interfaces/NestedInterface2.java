@@ -1,8 +1,11 @@
 package main.java.ru.sibintek.oop.examples.interfaces;
 
+/**
+ * Константа в интерфейсе
+ */
 class MyClass2 {
     protected interface NestedInterface {
-        String student = "Disha";// needs to be initia;ized as its final
+        String student = "Disha";// needs to be initialized as its final
 
         void display(int rollno);
     }

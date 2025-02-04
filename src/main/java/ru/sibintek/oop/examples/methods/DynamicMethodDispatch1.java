@@ -33,9 +33,9 @@ class C extends A {
 
 class DynamicMethodDispatch1 {
     public static void main(String[] args) {
-        A a=new A();
-        B b=new B();
-        C c=new C();
+        A a = new A();
+        B b = new B();
+        C c = new C();
         // obtain a reference of type A
         A ref;
 

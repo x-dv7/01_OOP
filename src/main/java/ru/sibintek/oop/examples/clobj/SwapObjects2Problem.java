@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.clobj;
 
+/**
+ * Проблема переприсвоения объекта через копию ссылки
+ */
 class Box5 {
     int length, box_no;
 

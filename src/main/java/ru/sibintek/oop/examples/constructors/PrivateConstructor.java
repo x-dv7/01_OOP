@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.constructors;
 
+/**
+ * Приватный конструктор
+ */
 class Person1 {
 	private static Person1 name = null;
 	public int age = 12;

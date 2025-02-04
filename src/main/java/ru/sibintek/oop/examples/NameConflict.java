@@ -1,5 +1,5 @@
 package main.java.ru.sibintek.oop.examples;
-import main.java.ru.sibintek.oop.util.String;
+import main.java.ru.sibintek.oop.util.String1;
 
 public class NameConflict {
 	public static void main(java.lang.String[] args) {
@@ -8,7 +8,7 @@ public class NameConflict {
 		//также потенциально классы main.java.ru.sibintek.oop.examples.String и
 		//main.java.ru.sibintek.oop.util.String могут импортироваться в другом пакете,
 		//в таком случае нужно будет обращаться по полному имени
-		String string1 = new String();
+		String1 string1 = new String1();
 		string1.print();
 	}		
 }

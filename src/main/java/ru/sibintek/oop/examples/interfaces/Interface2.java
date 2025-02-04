@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.interfaces;
 
+/**
+ * Реализация статического метода интерфейсом
+ */
 interface Callback1 {
     static void call(int person) {
         System.out.println("Call p:" + person);

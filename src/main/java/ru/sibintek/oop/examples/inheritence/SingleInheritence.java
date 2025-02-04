@@ -1,17 +1,20 @@
 package main.java.ru.sibintek.oop.examples.inheritence;
 
+/**
+ * Требуется объявить конструктор класса родителя или явно вызвать нужный конструктор
+ */
 class ParentIJK {
     protected int i, j;
 
     //требуется объявить конструктор класса родителя или явно вызвать нужный конструктор
-	protected ParentIJK() {
+    protected ParentIJK() {
     }
 
-	protected ParentIJK(int a) {
+    protected ParentIJK(int a) {
         this.i = a;
     }
 
-	protected ParentIJK(int a, int b) {
+    protected ParentIJK(int a, int b) {
         this.i = a;
         this.j = b;
     }
@@ -25,8 +28,8 @@ class ParentIJK {
 class ChildIJK extends ParentIJK {
     protected int k;
 
-	ChildIJK(int a, int b, int c) {
-		super(a); // если нет конструктора без параметров, то требуется вызвать нужный коструктор
+    ChildIJK(int a, int b, int c) {
+        super(a); // если нет конструктора без параметров, то требуется вызвать нужный конструктор
         // родителя
 //        this.i = a;
         this.j = b;
@@ -47,7 +50,7 @@ public class SingleInheritence {
         // the superclass acquire memory in this object. That is why, by using the
         // object of the subclass we can also access the members of a superclass.
         // During inheritance only object of subclass is created, not the superclass
-		ChildIJK subobj = new ChildIJK(5, 10, 15);
+        ChildIJK subobj = new ChildIJK(5, 10, 15);
         subobj.Showij();
         subobj.Showk();
     }

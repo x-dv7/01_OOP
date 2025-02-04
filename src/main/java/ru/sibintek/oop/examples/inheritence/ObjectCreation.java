@@ -1,5 +1,8 @@
 package main.java.ru.sibintek.oop.examples.inheritence;
 
+/**
+ * hashCode родителя и наследника
+ */
 //A Java program to demonstrate that both super class and subclass constructors refer to same object 
 class Parent {
     Parent() {
