@@ -26,6 +26,7 @@ class ChildAC1 extends ParentAC {
     void meth() {
         System.out.println("abstract method");
     }
+
 }
 
 class AbstractClass1 {

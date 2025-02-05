@@ -3,14 +3,26 @@ package main.java.ru.sibintek.oop.examples;
 public class HotKeysExample {
     private int number;
 
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public HotKeysExample() {
+        super();
+    }
+
     public static void main(String[] args) {
         // Ctrl + Alt + Space: Ввод названия любого класса проекта
+
 //        MyClass myObject = new MyClass(); // Пример использования класса
 
         // Ctrl + Shift + Enter: Завершение оператора
-//        souf
-        System.out.println("Hello, World!"); // Просто завершение оператора
 
+        System.out.println("Hello, World!"); // Просто завершение оператора
 
         // Ctrl + P: Сведения о параметрах метода
         HotKeysExample.printMessage("Hello, Giga IDE!"); // Вызов метода с параметром

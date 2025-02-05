@@ -2,6 +2,10 @@ package main.java.ru.sibintek.oop.examples.initialization;
 
 class Blocks {
     private int amount = 4;
+    {
+        System.out.println("Inside Anonymous Block2");
+    }
+
     //creating an anonymous blocks
     {
         System.out.println("Inside Anonymous Block");
