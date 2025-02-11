@@ -1,0 +1,7 @@
+bin/
+.gigaide
+.idea
+.settings
+.classpath
+.project
+JavaLearnOOP.iml
